@@ -18,6 +18,11 @@
 - 실제 구현체는 BeanPropertyBindingresult 객체로 두 인터페이스 모두 구현하고 있기 때문에 둘다 사용이 가능하다.
 - BindingResult가 Errors를 상속받아 더 많은 기능을 제공하고 있기 때문에 보통 BindingResult를 많이 사용한다.
 
+### FieldError 생성자
+- 필드에러 생성자는 2개가 있다.
+- objectName, field, rejectedvalue, bindingFailure, codes, arguments, defaultMessage 등 매개변수가 존재한다.
+
+
 
 
 
