@@ -5,6 +5,7 @@
 4. 사용자가 직접 검증로직을 구현한 것과 다르게 해당 입력받는 타입과 맞지 않으면 다르게 에러를 표현해준다.
 
 ![image](https://user-images.githubusercontent.com/50834204/126457637-3484f081-ba64-4bf7-96dd-c45161834dd2.png)
+
 5. BindingResult는 순서가 중요하기 때문에 @ModelAttribute 뒤에 작성해야한다.
 
 #### BindingResult 오류를 검증하는 방법은 3가지가 잇다.
