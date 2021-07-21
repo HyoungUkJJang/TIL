@@ -10,7 +10,7 @@
 
 #### BindingResult 오류를 검증하는 방법은 3가지가 잇다.
 1. 직접 검증로직을 작성하기
-2. FieldError 사요ㅕㅇ하기
+2. FieldError 사용하기
 3. validation 사용하기
 
 #### BindingResult의 구현체
