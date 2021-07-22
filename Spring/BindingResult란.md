@@ -22,6 +22,15 @@
 - 필드에러 생성자는 2개가 있다.
 - objectName, field, rejectedvalue, bindingFailure, codes, arguments, defaultMessage 등 매개변수가 존재한다.
 
+### rejectValue
+- 필드에러는 매게변수가 많아서 불편함이 있다.
+
+``` java
+BindingResult.rejectValue("field","errorCode","errorArgs","defaultMessage") 
+```
+
+- rejectValue를 이용하여 더욱 쉽게 검증할 수 있다.
+
 
 
 
