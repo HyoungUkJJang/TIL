@@ -35,3 +35,18 @@ public class Elvis{
 	public void leaveTheBuilding() {…}
 	}
 ```
+
+
+## 이상적으로 싱글턴을 선언하는  방법(열거타입)
+```java
+public enum Elvis{
+	INSTANCE;
+	
+	public void leaveTheBuilding() {...}
+}
+```
+
+* public 방식과 비슷하지만 더 간결하고 추가적인 작업 없이 직렬화가 가능하다.
+* 복잡한 직렬화 상황이나 리플렉션 공격에도 싱글턴을 보장해준다.
+* 하지만 싱글턴이 Enum외의 클래스를 상속해야 한다면 이 방법은 사용할 수 없음
+
