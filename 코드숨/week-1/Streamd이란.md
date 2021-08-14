@@ -41,7 +41,7 @@ public class StereamEx {
 		// dropWhile 인수로 전달받은 프리디케이트가 true를 버리고 나머지 요소들을 포함하는 스트림을 반환
 
 		// map 스트림을 새로운 스트림으로 변환하는 연산을 해준다.
-		List<String> mappingEx = list.stream().map(i -> 				String.valueOf(i)).collect(Collectors.toList());
+		List<String> mappingEx = list.stream().map(i -> String.valueOf(i)).collect(Collectors.toList());
 		for (String ex : mappingEx) {
   		  System.out.println("ex = " + ex);
 		}
