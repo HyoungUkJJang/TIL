@@ -1,5 +1,5 @@
 # 자주 쓰이는 HTTP  상태코드 
-* 참고 사이트1 -  https://datatracker.ietf.org/doc/html/rfc7231#section-6.3.1
+* 참고 사이트1 -  https://datatracker.ietf.org/doc/html/rfc7231#section-6
 * 참고 사이트2 -  [HTTP 상태 코드 - HTTP | MDN](https://developer.mozilla.org/ko/docs/Web/HTTP/Status)
 * 클라이언트가 보낸 요청의 상태를 응답에서 알려준다.
 * 클라이언트가 인식할 수 없는 상태코드를 반환하게 된다면 클라이언트는 상위 상태코드로 해석하여 처리한다.  ex -  299 > 2xx(Success)
